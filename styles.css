@@ -1,0 +1,13 @@
+.vc-lastonline-subtext {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-low-contrast, var(--text-muted));
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vc-lastonline-uncertain {
+    opacity: 0.55;
+}
