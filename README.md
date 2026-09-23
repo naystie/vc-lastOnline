@@ -1,20 +1,20 @@
 # lastOnline
 
-see how long someone has been offline, as an `online 5m ago` line under their name
+indicates how long ago a person was last online below their username
 
-![screenshot](screenshot.png)
+![stock vs lastOnline](screenshot.png)
 
-## features
+## what it does
 
-- **member list**, **dm list**, **friends list** and **profiles**
-- built from presence events, stored locally, forgets anything older than 30 days
-- `online <3d ago` when your client was closed for part of that window, because guessing would be rude
-- toggleable per surface in settings
+- works on the member list, dm list, friends list and profiles
+- all data is stored locally and forgotten after 30 days, or however long you choose
+- displays `online <2d ago` if discord was offline during some time of that day because the exact time is unknown
+- all parts can be disabled individually in settings and can be restricted to friends only
 
 ## install
 
 if you made it here you probably already know how to install custom plugins, but if not just check [vencord's guide](https://docs.vencord.dev/installing/custom-plugins/)
 
-## heads up
+## notes
 
-it starts out empty. the only way it learns someone's last online moment is by watching them go offline, so give it a few days before deciding it's broken
+starts out blank. only learns about when people were last online based on going offline
